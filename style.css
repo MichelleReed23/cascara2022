@@ -1,0 +1,51 @@
+body{
+    background: url(imatges/papel.jpg);
+}
+.container{
+    width: 920px;
+    background: white;
+    margin: auto;
+    border-radius: 30px;
+}
+.top{
+    margin-top: 30px;
+}
+.menu{
+    float: right;
+}
+.menu li{
+    display: inline-block;
+}
+.menu a{
+    color: black;
+    text-decoration: none;
+    padding: 20PX;
+}
+.menu a:hover{
+    background: #b52025;
+}
+.col{
+    width: 250px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+    padding: 20px;
+}
+.col h2{
+    color: #b52025;
+}
+.row{
+    text-align: center;
+}
+.footer{
+    overflow: hidden;
+}
+.footer a{
+    color: black;
+    text-decoration: none;
+}
+.footer span{
+    float: left;
+    margin-top: 10px;
+    margin-left: 30px;
+}
